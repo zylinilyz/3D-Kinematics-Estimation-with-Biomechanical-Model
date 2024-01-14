@@ -5,7 +5,7 @@
 conda create python=3.9 -n py39
 conda install pytorch torchvision pytorch-cuda=11.6 -c pytorch -c nvidia
 conda install -c conda-forge scikit-learn scikit-image tqdm matplotlib pandas tensorboardX timm einops
-pip install --user opencv-python trimesh
+pip install opencv-python trimesh ultralytics==8.0.99
 ```
 
 ## Pre-trained models
