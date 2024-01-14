@@ -359,8 +359,8 @@ class Test:
             subject = str.split(clip, '/')[-2]
             action = str.split(str.split(clip, '/')[-1], '_')[0]
             
-            #if os.path.exists(os.path.join(self.out_dir, f'ik_mot_files_{self.exp_name}', subject, action)) is True:
-            #    continue
+            if os.path.exists(os.path.join(self.out_dir, f'ik_mot_files_{self.exp_name}', subject, action)) is True:
+                continue
             
             ## save frames from video ...
             img_out_dir1 = os.path.join(self.src_dir, self.dataset, 'images', subject, action, 'view0')
