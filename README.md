@@ -3,9 +3,11 @@
 ## Requirements
 ```
 conda create python=3.9 -n py39
-conda install pytorch torchvision pytorch-cuda=11.6 -c pytorch -c nvidia
-conda install -c conda-forge scikit-learn scikit-image tqdm matplotlib pandas tensorboardX timm einops
-pip install opencv-python trimesh ultralytics==8.0.99
+conda activate py39
+conda install pytorch=1.13.1=py3.9_cuda11.6_cudnn8.3.2_0 torchvision=0.14.1=py39_cu116  pytorch-cuda=11.6 opencv -c pytorch -c nvidia
+conda install -c conda-forge scikit-learn scikit-image tqdm matplotlib pandas tensorboardX
+pip install mediapipe trimesh imgaug timm einops bs4 lxml ultralytics==8.0.99
+pip install ultralytics==8.0.99
 ```
 
 ## Pre-trained models
