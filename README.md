@@ -42,13 +42,13 @@ We first train the frame feature encoder without considering temporal informatio
 ```
 python ./training_scripts/1_run_train_spatial.py
 ```
-### Train spatialtemporal model
+### Train spatio-temporal model
 Next, we train the spatiotemporal model for spatio-temporal feature refinement. Please make sure the checkpoint of the spatial model is correctly specified in '2_run_train_spatialtemporal.py'.
 ```
 python ./training_scripts/2_run_train_spatialtemporal.py
 ```
 ## Testing
-### Prepare testing data
+### Pre-processing
 Please specify the directory for the testing data and the output root directory for the pre-processed testing data.
 ```
 python ./testing_scripts/0_prepare_test_data.py --data_dir ./data/test_data/ --out_dir ./data/test_data/
