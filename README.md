@@ -64,5 +64,5 @@ python ./testing_scripts/2_combine_mot_scale_point.py
 ```
 
 ## Acknowledgements
-This implementation is heavily based on [LVD](https://github.com/enriccorona/LVD/blob/main/README.md?plain=1).
+This implementation is based on [LVD](https://github.com/enriccorona/LVD/blob/main/README.md?plain=1).
 
