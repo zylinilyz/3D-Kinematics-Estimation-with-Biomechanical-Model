@@ -1,4 +1,5 @@
 # 3D-Kinematics-Estimation-with-Biomechanical-Model
+Implementation of [3D Kinematics Estimation from Video with a Biomechanical Model and Synthetic Training Data](https://arxiv.org/abs/2402.13172), CVPR workshop 2024.
 
 ## Requirements
 ```
@@ -65,4 +66,16 @@ python ./testing_scripts/2_combine_mot_scale_point.py
 
 ## Acknowledgements
 This implementation is based on [LVD](https://github.com/enriccorona/LVD/blob/main/README.md?plain=1).
+
+## Citation
+```
+@inproceedings{lin20243d,
+  title={3D kinematics estimation from video with a biomechanical model and synthetic training data},
+  author={Lin, Zhi-Yi and Lyu, Bofan and Fernandez, Judith Cueto and Van Der Kruk, Eline and Seth, Ajay and Zhang, Xucong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1441--1450},
+  year={2024}
+}
+```
+
 
